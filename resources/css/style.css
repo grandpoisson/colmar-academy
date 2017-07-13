@@ -114,9 +114,8 @@ header .mobile {
 
 .learn-text-container {
 	display: flex;
-	align-items: center;
-	align-content: center;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
+	justify-content: center;
 	width: 30%;
 	padding-left: 1rem;
 	padding-right: 3rem;
@@ -138,7 +137,7 @@ header .mobile {
 	padding-bottom:2rem;
 }
 .button {
-	width:100%;
+	width:95%;
   	border-radius: 1px;
   	background-color: #4a4a4a;
   	text-align: center;
