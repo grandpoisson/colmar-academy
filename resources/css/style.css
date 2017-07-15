@@ -278,16 +278,12 @@ section.banner {
   padding-bottom: 2rem;
   width: 40%;
 }
-
-.sidebar div:first-child {
-  margin-top: 2rem;
+.information {
+  padding-top: 1rem;
+}
+.sidebar-block:hover {
   background-color: #C5CAD7;
 }
-
-.sidebar div:nth-child(3n) {
-  background-color: #C5CAD7;
-}
-
 .sidebar-block {
   display: inline-flex;
   align-items: center;
@@ -304,7 +300,7 @@ section.banner {
 }
 
 .textbox {
-  margin-right: 16px
+  margin-right: 1rem;
 }
 
 .textbox p {
@@ -314,7 +310,7 @@ section.banner {
 
 .textbox a {
   font-family: "Quattrocento Sans", sans-serif;
-  color: #404655;
+  color: #1C32BA;
   font-size: 0.9rem;
   text-decoration: none;
 }
@@ -359,9 +355,11 @@ section.banner {
   .sidebar-block {
     display: flex;
     flex-direction: column;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
-
+  .sidebar-block:hover {
+  background-color: #C5CAD7;
+  }
   .sidebar-block img {
     width: 90%;
     max-width: 480px;
@@ -437,6 +435,10 @@ section.banner {
   margin-bottom: 0.75rem;
   text-transform: uppercase;
 }
+.course-holder:hover{
+  background-color: #C5CAD7;
+  color: #373737;
+}
 
 .courses-mobile {
   display: none;
@@ -511,11 +513,11 @@ section.banner {
 }
 
 .video {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 video {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   border: 2px solid #C5CAD7;
 }
 
@@ -525,10 +527,10 @@ video {
 
 #thesis {
   border-left: none;
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
-#thesis div:first-child{
+#thesis div:hover{
   background-color: #C5CAD7;
   padding-top: 0px;
 }
