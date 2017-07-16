@@ -635,13 +635,19 @@ footer nav ul li a {
 /* Change color of dropdown links on hover */
 /*.dropdown-content a:hover {background-color: #f1f1f1}*/
 
-/* Show the dropdown menu on hover */
+/* Show the dropdown menu on hover and on press for mobile */
 .course-mobile-dropdown:hover .dropdown-content {
+    display: block;
+}
+.course-mobile-dropdown:active .dropdown-content {
     display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .course-mobile-dropdown:hover .dropbtn {
+    background-color: #557A95;
+}
+.course-mobile-dropdown:active .dropbtn {
     background-color: #557A95;
 }
 h2 {
