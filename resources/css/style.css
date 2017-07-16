@@ -639,7 +639,7 @@ footer nav ul li a {
 .course-mobile-dropdown:hover .dropdown-content {
     display: block;
 }
-.course-mobile-dropdown:active .dropdown-content {
+.course-mobile-dropdown:focus .dropdown-content {
     display: block;
 }
 
@@ -647,7 +647,7 @@ footer nav ul li a {
 .course-mobile-dropdown:hover .dropbtn {
     background-color: #557A95;
 }
-.course-mobile-dropdown:active .dropbtn {
+.course-mobile-dropdown:focus .dropbtn {
     background-color: #557A95;
 }
 h2 {
