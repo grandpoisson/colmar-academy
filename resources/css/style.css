@@ -472,7 +472,9 @@ section.banner {
     align-items: center;
     padding-left: 0px
   }
-
+  .courses {
+    background-color: #FFFFFF;
+  }
   .courses h5 {
     padding-bottom: 32px;
   }
@@ -482,8 +484,10 @@ section.banner {
   }
 
   .courses-mobile {
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: center;
     width: 90%;
     max-width: 480px;
     margin-bottom: 32px;
@@ -492,7 +496,7 @@ section.banner {
 
   .courses-mobile h6 {
     background-color: #C5CAD7;
-    padding: 16px 0px 16px 16px;
+    padding: 16px;
     margin-bottom: 8px;
   }
 
@@ -591,6 +595,54 @@ footer nav ul li a {
     margin-top: 16px;
     margin-bottom: 16px;
   }
+}
+/* Special effects */
+/* Dropdown Button */
+.dropbtn {
+    background-color: #C5CAD7;
+    color: #000000;
+    width: 18rem;
+    padding: 1rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.course-mobile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+/* Show the dropdown menu on hover */
+.course-mobile-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.course-mobile-dropdown:hover .dropbtn {
+    background-color: #557A95;
 }
 h2 {
 	font-family: 'Montserrat', sans-serif;
