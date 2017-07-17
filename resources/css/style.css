@@ -1,6 +1,6 @@
 /* Universal settings */
 html {
-  font-family: "Catamaran", sans-serif;
+  font-family: "Lora", serif;
   font-size: 16px;
 }
 section {
@@ -8,7 +8,7 @@ section {
   display: flex;
 }
 h1  {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.5;
@@ -16,7 +16,7 @@ h1  {
 }
 
 h2 {
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.5;
@@ -24,13 +24,13 @@ h2 {
 }
 
 h5 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2rem;
 }
 
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
@@ -81,14 +81,14 @@ header {
 }
 
 #colmar {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: #1B202B;
 }
 
 #academy {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
   color: #687083;
@@ -125,6 +125,10 @@ ul li a {
   font-size: 0.9rem;
   text-decoration: none;
   color: #1B202B;
+}
+ul li a:hover {
+  font-weight: bold;
+  color: #4a4a7f;
 }
 header .mobile {
   display: none;
@@ -180,7 +184,7 @@ section.banner {
   text-decoration: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: #FFFFFF;
@@ -263,7 +267,7 @@ section.banner {
 }
 
 .feature-content span {
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #687083;
@@ -304,12 +308,12 @@ section.banner {
 }
 
 .textbox p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Lora', serif;
   margin-bottom: 1.25rem;
 }
 
 .textbox a {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #1C32BA;
   font-size: 0.9rem;
   text-decoration: none;
@@ -428,7 +432,7 @@ section.banner {
 }
 
 .course-holder .textbox span {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 0.9rem;
   color: #687083;
@@ -534,10 +538,6 @@ video {
   margin-top: 2rem;
 }
 
-#thesis div:hover{
-  background-color: #C5CAD7;
-  padding-top: 0px;
-}
 
 /*Thesis @1024px*/
 
@@ -569,13 +569,13 @@ footer {
 
 footer span {
   margin-left: 24px;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
   color: #687083;
 }
 
 footer nav ul li a {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
   color: #687083;
 }
@@ -593,8 +593,4 @@ footer nav ul li a {
     margin-top: 16px;
     margin-bottom: 16px;
   }
-}
-
-h2 {
-	font-family: 'Montserrat', sans-serif;
 }
