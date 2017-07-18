@@ -126,9 +126,9 @@ ul li a {
   text-decoration: none;
   color: #1B202B;
 }
+/* make nav appear bold without the popping movement of the bold */
 ul li a:hover {
-  font-weight: bold;
-  color: #4a4a7f;
+  text-shadow:0px 0px 1px #1B202B;
 }
 header .mobile {
   display: none;
@@ -281,17 +281,13 @@ section.banner {
   padding-bottom: 2rem;
   width: 40%;
 }
-.information {
+.info {
   padding-top: 1rem;
-}
-.sidebar-block:hover {
-  background-color: #C5CAD7;
 }
 .sidebar-block {
   display: inline-flex;
   align-items: center;
   width: 100%;
-  transition: all 500ms ease 250ms;
 }
 
 .sidebar-block img {
@@ -318,6 +314,10 @@ section.banner {
   font-size: 0.9rem;
   text-decoration: none;
 }
+/* make 'read more' and 'terms' appear bold without the popping movement of the bold */
+.textbox a:hover {
+  text-shadow:0px 0px 1px #1C32BA;
+}
 
 /*Information @1024px*/
 
@@ -335,7 +335,7 @@ section.banner {
 /*Information - Mobile*/
 
 @media only screen and (max-width: 768px) {
-  section.information {
+  section.info {
     justify-content: center;
   }
 
@@ -347,7 +347,7 @@ section.banner {
     display: none;
   }
 
-  .sidebar.information {
+  .sidebar.info {
     display: none;
   }
 
