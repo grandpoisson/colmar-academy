@@ -537,6 +537,9 @@ video {
   border-left: none;
   margin-top: 2rem;
 }
+.feature-content p {
+  padding-bottom: 2rem;
+}
 
 
 /*Thesis @1024px*/
