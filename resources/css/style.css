@@ -133,7 +133,7 @@ header .mobile {
 
 /*Header - Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
   header .logo span, header nav {
     display: none;
   }
@@ -197,7 +197,7 @@ header .mobile {
 
 /*Banner - Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
  .banner {
     flex-direction: column;
     width: 100%;
@@ -243,6 +243,10 @@ header .mobile {
 
 .main-text h5 {
   padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.main-text p {
   padding-bottom: 2rem;
 }
 .main-image img {
@@ -304,7 +308,7 @@ header .mobile {
 
 /*Information - Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
 
   .feature-container {
     display: none;
@@ -422,7 +426,7 @@ header .mobile {
 
 /*Courses - Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
   section.courses {
     display: flex;
     flex-direction: column;
@@ -443,9 +447,10 @@ header .mobile {
   .courses-mobile {
     display: block;
     justify-content: center;
-    width: 90%;
-    max-width: 480px;
+    width: 95%;
     margin-bottom: 32px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     transition: all 500ms ease 250ms;
   }
 
@@ -475,7 +480,12 @@ header .mobile {
   max-width: 60%;
   min-width: 60%;
   flex: 1;
-  padding: 1rem;
+  padding: 2rem 1rem;
+}
+
+.video-desktop {
+  padding-bottom: 1.5rem;
+  padding-left: .5rem;
 }
 
 .video-desktop video {
@@ -488,15 +498,20 @@ header .mobile {
   display: none;
 }
 
-#thesis {
-  border-left: none;
-  margin-top: 2rem;
-}
-
 /*Thesis - Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
+
+  .thesis-container {
+    display: none;
+  }
   .video-mobile {
+    display: block;
+  }
+
+  .video-mobile video {
+    width: 100%;
+    height: auto;
     display: block;
   }
 }
@@ -527,7 +542,7 @@ footer nav ul li a {
 
 /*Footer Mobile*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 460px) {
   nav {
     display: none;
   }
